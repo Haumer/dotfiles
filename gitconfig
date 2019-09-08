@@ -48,4 +48,9 @@
   mergeoptions = --no-edit
 [user]
 	email = alexander.haumer@me.com
-	name = Alexander Haumer
+	name = alexander
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
