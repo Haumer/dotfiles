@@ -47,8 +47,8 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = alexander.haumer@me.com
-	name = alexander
+	email = alexander.haumerâ‚@me.com
+	name = Alex
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
